@@ -61,6 +61,7 @@ export default function TextForm(props) {
             id="exampleFormControlInput1"
             placeholder="name@example.com"
             style={{
+              boader: "1px solid black",
               color: props.mode === "dark" ? "white" : "grey",
               backgroundColor: props.mode === "dark" ? "#565656" : "white",
             }}
@@ -74,6 +75,7 @@ export default function TextForm(props) {
             onChange={handleOnChange}
             id="exampleFormControlTextarea1"
             style={{
+              boader: "1px solid black",
               color: props.mode === "dark" ? "white" : "grey",
               outlineColor: "black",
               backgroundColor: props.mode === "dark" ? "#565656" : "white",
