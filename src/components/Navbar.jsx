@@ -5,7 +5,7 @@ export default function Navbar(props) {
   return (
     <>
       <nav
-        className={`navbar navbar-expand-lg navbar-${props.mode} bg-${props.mode}`}
+        className={`navbar fixed-top navbar-expand-lg navbar-${props.mode} bg-${props.mode}`}
         style={{
           color: props.mode === "dark" ? "white" : "black",
           backgroundColor: props.bgColor,
